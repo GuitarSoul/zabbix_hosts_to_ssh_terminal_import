@@ -1,0 +1,2 @@
+{% for device in devices_list %}{{device.Hostname}},{{device.IP}}
+{% endfor %}	

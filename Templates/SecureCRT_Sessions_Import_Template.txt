@@ -1,0 +1,3 @@
+protocol,folder,emulation,session_name,hostname,username
+{% for device in devices_list %}SSH2,{{device.Site_Address}},VT100,{{device.Hostname}},{{device.IP}},{{username}}
+{% endfor %}

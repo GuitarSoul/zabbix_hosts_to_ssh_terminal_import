@@ -1,0 +1,4 @@
+zabbix.url : ''
+zabbix.username : ''
+zabbix.password : ''
+debug: 'False'
